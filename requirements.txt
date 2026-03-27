@@ -1,0 +1,13 @@
+python-dotenv
+rich
+typer
+langchain
+langchain-core
+langchain-ollama
+langchain-groq
+langchain-community
+langchain-experimental
+langchain-chroma
+sentence-transformers
+mcp
+tavily-python

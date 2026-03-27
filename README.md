@@ -46,13 +46,13 @@ The following state diagram illustrates how information flows through the core c
 The following sequence diagrams illustrate three distinct end-to-end operational flows showing how the overarching Autonomous Agent, CLI, LLM, MCP, and tools interact.
 
 ### Scenario 1: Querying Library Documentation via Custom MCP RAG
-<img src="images/sequence-diagram-1.png" alt="sequence-diagram-1" width="50%" height="50%">
+<img src="images/sequence-diagram-1.png" alt="sequence-diagram-1" width="75%" height="75%">
 
 ### Scenario 2: Reading and Editing a File (With User Confirmation)
-<img src="images/sequence-diagram-2.png" alt="sequence-diagram-2" width="50%" height="50%">
+<img src="images/sequence-diagram-2.png" alt="sequence-diagram-2" width="75%" height="75%">
 
 ### Scenario 3: Web Search leading to Implementation Plan Generation
-<img src="images/sequence-diagram-3.png" alt="sequence-diagram-3" width="50%" height="50%">
+<img src="images/sequence-diagram-3.png" alt="sequence-diagram-3" width="75%" height="75%">
 
 
 ## 7. Implementation Phases
