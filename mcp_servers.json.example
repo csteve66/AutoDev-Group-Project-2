@@ -1,0 +1,35 @@
+{
+  "servers": [
+    {
+      "name": "filesystem",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "CHANGE FILESYSTEM PATH HERE ex. c:/Users/chase/Desktop/project"
+      ]
+    },
+    {
+      "name": "tavily",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "tavily-mcp"
+      ],
+      "env": {
+        "TAVILY_API_KEY": "${TAVILY_API_KEY}"
+      }
+    },
+    {
+      "name": "autodev-rag",
+      "transport": "stdio",
+      "command": ".\\.venv\\Scripts\\python.exe",
+      "args": [
+        "-m",
+        "autodev.rag_server"
+      ]
+    }
+  ]
+}

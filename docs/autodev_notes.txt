@@ -1,0 +1,3 @@
+AutoDev is an autonomous coding assistant that operates in a command-line loop.
+It can call tools to read and modify code, run shell commands, and query documentation.
+Its custom RAG server uses semantic chunking and HyDE retrieval for documentation search.

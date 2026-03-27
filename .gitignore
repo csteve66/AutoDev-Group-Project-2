@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env/
+.venv/
+
+.vscode/
+.DS_Store
+Thumbs.db
+
+.env
+mcp_servers.json

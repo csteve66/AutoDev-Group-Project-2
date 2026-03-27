@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autodev-cli"
+version = "0.1.0"
+description = "AutoDev autonomous coding assistant CLI"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["autodev*"]
+
+[project.scripts]
+autodev = "autodev.main:cli_main"
