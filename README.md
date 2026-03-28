@@ -117,7 +117,7 @@ The custom built local MCP server offers a robust, local Advanced RAG implementa
 
 The following state diagram illustrates how information flows through the core components of the AutoDev system:
 
-<img src="images/state-diagram.png" alt="state-diagram" width="50%" height="50%">
+<img src="images/New-State-Diagram.png" alt="state-diagram" width="50%" height="50%">
 
 ## Sequence Diagrams (Usage Scenarios)
 
