@@ -19,4 +19,5 @@ autodev_cli.egg-info/PKG-INFO
 autodev_cli.egg-info/SOURCES.txt
 autodev_cli.egg-info/dependency_links.txt
 autodev_cli.egg-info/entry_points.txt
+autodev_cli.egg-info/requires.txt
 autodev_cli.egg-info/top_level.txt

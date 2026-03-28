@@ -88,5 +88,8 @@ def query_docs_hyde(query: str, k: int = 5) -> str:
     return "\n\n".join(rendered)
 
 
-if __name__ == "__main__":
+def main() -> None:
     mcp.run()
+
+if __name__ == "__main__":
+    main()
